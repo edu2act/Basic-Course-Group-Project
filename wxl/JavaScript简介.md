@@ -1,4 +1,4 @@
-**JavaScript简介**
+# **JavaScript简介**
 
 JavaScript是一种直译式脚本语言，它的解释器被称为JavaScript引擎，为浏览器的一部分。JavaScript是一种广泛用于客户端的脚本语言，最早是在HTML（标准通用标记语言下的一个应用）网页上使用，用来给HTML网页增加动态功能。
 
