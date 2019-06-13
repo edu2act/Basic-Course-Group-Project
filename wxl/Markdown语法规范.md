@@ -292,3 +292,24 @@ _   底线
 
 ![blockchain](./images/blockchain.jpg "区块链")
 
+github并没有显示图片下面的文字
+
+## 十二、超链接
+
+在markdown文档中插入超链接的语法是：
+
+```
+[超链接名](超链接地址 "超链接title")
+```
+
+title可加可不加
+
+**示例：**
+
+```
+[百度](https://www.baidu.com "百度一下，你就被骗")
+```
+
+**效果如下：**
+
+[百度](https://www.baidu.com "百度一下，你就被骗")
