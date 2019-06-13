@@ -25,7 +25,7 @@ var date6 = new Date(ms);
 | date.getTime()　　		|               返回 1970 年 1 月 1 日至今的毫秒数  |
 
 ##### 1.3 字符串化    
-* toString():输出：Tue Jul 01 2014 00:00:00 GMT+0800 (中国标准时间)  
+* toString():输出：Tue Jul 01 2014 00:00:00 GMT + 0800 (中国标准时间)  
 * toLocaleString(),输出：2014-06-04  
 * toDateString(),输出：Tue Jul 01 2014  
 * toLocaleDateString()，输出“2014-06-01”  
