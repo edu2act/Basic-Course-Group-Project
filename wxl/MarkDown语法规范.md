@@ -52,6 +52,10 @@ Markdwon 是一种轻量级**标记语言**，它以纯文本形式编写文档�
 GitHub支持的语法在标准markdown语法的基础上做了修改，称为Github Flavored Markdown，简称GFM。
 
 ## 三、缩进与空格
+
+markdown本身对一般空格是忽略的，但在某些格式下，空格是作为格式必要组成部分存在的，如星号后面的空格、四个连续空格之类。那如果需要在行首添加空格该如何解决呢？
+
+方法一：p{ white-space:pre-wrap;}
  
  段首一个空格
  
