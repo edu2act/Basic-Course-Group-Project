@@ -1,6 +1,8 @@
 MarkDown简介及语法规范
 =
+
 [TOC]
+
 Markdwon 是一种轻量级**标记语言**，它以纯文本形式编写文档，并最终以HTML格式发布。Markdown也可以理解为将以 MARKDOWN语法编写的内容转换成HTML内容的工具。GitHub支持的语法在标准markdown语法的基础上做了修改，称为Github Flavored Markdown，简称GFM。
 
 ## 一、标题
