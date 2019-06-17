@@ -1,6 +1,6 @@
-#### 1 Date 对象   
+#### 3 Date 对象   
 
-##### 1.1 创建Date对象    
+##### 3.1 创建Date对象    
 ```JavaScript
 var date = new Date();  //获取标准时间
 var date1 = new Date("January 12,2006 22:19:35");  //指定时间转换标准时间
@@ -11,7 +11,7 @@ var date5 = new Date(yyyy,mth,dd);
 var date6 = new Date(ms);
 ```
 
-##### 1.2 方法  
+##### 3.2 方法  
 |方法|效果|
 |:--|:--|
 |date.getFullYear()|2017　　从 Date 对象以四位数字返回年份|
@@ -24,7 +24,7 @@ var date6 = new Date(ms);
 | date.getMilliseconds()　　|               返回 Date 对象的毫秒(0 ~ 999)  |
 | date.getTime()　　		|               返回 1970 年 1 月 1 日至今的毫秒数  |
 
-##### 1.3 字符串化    
+##### 3.3 字符串化    
 * toString():输出：Tue Jul 01 2014 00:00:00 GMT + 0800 (中国标准时间)  
 * toLocaleString(),输出：2014-06-04  
 * toDateString(),输出：Tue Jul 01 2014  
@@ -32,9 +32,9 @@ var date6 = new Date(ms);
 * toTimeString(),输出：00:00:00 GMT+0800 (中国标准时间)  
 * toLocaleTimeString(),输出：00:00:00  
 * valueOf(),与getTime()一样，返回date对象的时间戳  
-##### 1.4 获取当前时间  
+##### 3.4 获取当前时间  
 * Date.now() ,直接返回当前时间对应的时间戳  
-##### 1.5 返回时间戳  
+##### 3.5 返回时间戳  
 * Date.parse(datestr),返回时间戳,参数datestr有两种格式：  
 1)YYYY/MM/DD HH:mm:ss (推荐使用)  
 2)YYYY-MM-DD HH:mm:ss (在IE中返回NAN)  
